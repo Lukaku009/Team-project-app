@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/missing_image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/image_desc" />
+
+    <TextView
+        android:id="@+id/missing_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/missing_image"
+        android:layout_marginStart="8dp"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/missing_age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/missing_name"
+        android:layout_toEndOf="@id/missing_image"
+        android:layout_marginStart="8dp"
+        android:textSize="16sp"
+        android:textColor="@android:color/darker_gray"
+        android:text="Age" />
+
+    <TextView
+        android:id="@+id/missing_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/missing_age"
+        android:layout_toEndOf="@id/missing_image"
+        android:layout_marginStart="8dp"
+        android:textSize="14sp"
+        android:textColor="@android:color/darker_gray"
+        android:text="Description" />
+</RelativeLayout>

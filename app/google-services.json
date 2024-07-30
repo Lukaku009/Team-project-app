@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "515485338718",
+    "project_id": "predict-7b19b",
+    "storage_bucket": "predict-7b19b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:515485338718:android:c17166c159886e8523f8cf",
+        "android_client_info": {
+          "package_name": "com.example.crime"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcuwbsy0yFGa_yhOroEZVhduM1vW8--cc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:515485338718:android:0587c7bc03c67f7f23f8cf",
+        "android_client_info": {
+          "package_name": "com.example.smartpredict"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcuwbsy0yFGa_yhOroEZVhduM1vW8--cc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

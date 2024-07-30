@@ -1,0 +1,54 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".ReportCrimeActivity"
+    android:background="@drawable/bg">
+
+    <TextView
+        android:id="@+id/reportCrimeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/report_crime"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
+
+    <EditText
+        android:id="@+id/crimeDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/editround"
+        android:hint="@string/crime_description_hint"
+        android:inputType="textMultiLine"
+        android:minHeight="200dp"
+        android:layout_below="@id/reportCrimeTitle"
+        android:layout_marginTop="30dp"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/reportBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btrounded"
+        android:text="@string/report"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_below="@id/crimeDescription"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+
+    <ProgressBar
+        android:id="@+id/reportProgress"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/reportBtn"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        android:layout_marginTop="30dp" />
+
+</RelativeLayout>
